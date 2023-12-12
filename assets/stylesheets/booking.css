@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+.main {    /*The main header styling Starter here*/
+    width: 100%;
+    background-color: black;
+    background-image: url(../img/bg4.png);
+    background-position: center;
+    background-size: cover;
+    height: 120vh;
+}
+  
+.navbar {
+    display: flex;
+    width: 1200px;
+    height: 75px;
+    margin-left: 130px;
+}
+  
+.icon {
+    width: 200px;
+    height: 70px;
+    float: left;
+}
+  
+.logo {
+    color: yellowgreen;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 16px;
+    margin-left:-30px;
+    padding-top: 14px;
+    margin-top: 5px
+}
+  
+.menu {                  /*the main navbar list  styling start here*/
+    width: 400px;
+    height: 70px;
+    float: left;
+}
+  
+.menu ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.menu ul li {
+    list-style: none;
+    margin-left: 60px;
+    margin-top: 32px;
+    font-size: 14px;
+}
+  
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+  
+.menu ul li a:hover {
+    color: yellowgreen;
+}
+    
+button {
+    width: 100px;
+    height: 40px;
+    background: black;
+    border: 2px solid yellowgreen;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+  }
+  
+button:hover {
+    color: yellowgreen;
+}
+  
+button:focus {
+    outline: none;
+}
+    
+.booking {                 /*the main booking container styling start here*/
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: yellowgreen;
+}
+  
+.bookinginfo {
+    text-align: center;
+    color: black;
+}
+  
+.bookinginfo h4 {
+    color: black;
+}
+
+* {
+    box-sizing: border-box;
+}
+                     
+.booking-main {          /*the container for the form styling stater here*/
+    width: 30%;
+    height: auto;
+    background-color: yellowgreen;
+    float: right;
+    padding: 8px;
+    margin-top: 30px;
+    margin-right: 450px;
+    border-radius: 10px;
+}
+  
+.form {
+    float: right;
+    width: 100%;
+    height: auto;
+    padding: 8px;
+    color: white;
+    font-size: 18px;
+}
+
+input[type=text],
+select{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 8px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=date]{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 8px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+  
+.submitbtn {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 60px;
+}
+
+.submitbtn:hover {
+    color: yellowgreen;
+}
+
+.recentbookingbtn {
+    width:auto;
+    background-color: black;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.recentbookingbtn:hover {
+    color: yellowgreen;
+}
+
+.submitbtn:focus {
+    outline: none;
+}
+
+.recentbookingbtn:focus {
+    outline: none;
+}
+  
+.error {                    /*Showing user status styling*/
+    color: red;
+    background-color:rgba(225, 51, 51, 0.667);
+    padding:2px;
+    border-radius: 3px;
+    width:auto;
+    height:auto;
+    font-size: 20px;
+    text-align: center;
+}
+  
+.success {
+    color: green;
+    background-color:rgba(47, 203, 47, 0.667);
+    padding:2px;
+    border-radius: 3px;
+    width:auto;
+    height:auto;
+    font-size: 20px;
+    text-align: center;
+}
+  
+* {
+    box-sizing: border-box;
+}
+  
+.footer {           /*the mian footer container styling starts here*/
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6)50%, rgba(0, 0, 0, 0.6)50%), url(../img/footerimg.jpg);
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    padding: 5px;
+}
+  
+.footer-main {
+    position: relative;
+}
+  
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 60px;
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+ul {
+    list-style: none;
+}
+  
+.footer-col {
+    width: 20%;
+    padding: 15px;
+}
+  
+.footer-col h4 {
+    font-size: 18px;
+    color: yellowgreen;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    position: relative;
+    font-weight: 500;
+}
+  
+.footer-col h3 {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.4s ease;
+}
+  
+.footer-col h3:hover {
+    color: black;
+    padding-left: 10px;
+}
+  
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    background-color: black;
+    height: 2px;
+    box-sizing: border-box;
+    width: 100px;
+}
+  
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 9px;
+}
+  
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.4s ease;
+}
+  
+.footer-col ul li a:hover {
+    color: black;
+    padding-left: 10px;
+}
+  
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: black;
+    width: 40px;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+}
+  
+.footer-col .social-links a:hover {
+    color: yellowgreen;
+    background-color: white;
+}

@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {              /*The main header styling Starter here*/
+  width: 100%;
+  background-color: black;
+  background-image: url(../img/bg4.png);
+  background-position: center;
+  background-size: cover;
+  height: auto;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  margin: auto;
+}
+
+#brand {
+  text-align: center;
+  line-height: 50px;
+  color: yellowgreen;
+  font-size: 25px;
+  font-weight: bolder;
+  margin-left: 10px;
+}
+
+.menu-icon {
+  padding: 10px 20px;
+  background: yellowgreen;
+  color: black;
+  cursor: pointer;
+  float: left;
+  margin-top: 6px;
+  border-radius: 5px;
+}
+
+#menuToggle {
+  display: none;
+}
+
+#menuToggle:checked~.menu {
+  position: absolute;
+  left: 0;
+}
+
+.menu {             /*the main navbar list  styling start here*/
+  width: 240px;
+  height: 540px;
+  margin: 5px;
+  position: absolute;
+  background: yellowgreen;
+  left: -245px;
+  margin-top: 55px;
+  border-radius: 0px 10px 10px 0px;
+  transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+}
+
+.menu h4 {
+  color: black;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Arial;
+}
+
+.menu ul li {
+  list-style-type: none;
+  margin-top: 15px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  font-family: Arial;
+  color: black;
+}
+
+nav {
+  width: 100%;
+  text-align: center;
+}
+
+nav a {
+  display: block;
+  padding: 15px 0;
+  border-bottom: 1px solid black;
+}
+
+nav a:hover {
+  background: rgba(128, 128, 128, 0.59);
+  color: black;
+}
+
+nav li:last-child a {
+  border-bottom: none;
+}
+
+.content_main {   /*the main content container styling start here*/
+  width: 800px;
+  height: 500px;
+  background: linear-gradient( to bottom right, rgb(163, 225, 39),rgba(72, 66, 66, 0.774));
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-left: 300px;
+  padding: 20px;
+}
+
+.content_main h2{
+  color: black;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 40px;
+  font-size: 28px;
+  font-family: 'Times New Roman';
+}
+
+.img {
+  width: 140px;
+  height: 140px;
+  border-radius: 3px;
+  float: right;
+  margin-top: -180px;
+  margin-right: 40px;
+}
+
+.content {
+  margin-top: 90px;
+  margin-left: 4px;
+  font-size: 19px;
+}
+
+.content p {
+  color:black;
+  font-weight: bold;
+  font-family: Arial;
+}

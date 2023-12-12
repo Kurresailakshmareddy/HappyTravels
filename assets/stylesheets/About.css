@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main{     /*--The main header styling Starter here */
+    width: 100%;
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+}
+
+.navbar {
+    display: flex;
+    width: 1200px;
+    height: 75px;
+    margin-left: 130px;
+}
+
+.icon {
+    width: 200px;
+    height: 70px;
+    float: left;
+}
+
+.logo {
+    color: yellowgreen;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 16px;
+    float: left;
+    padding-top: 14px;
+    margin-top: 5px
+}
+
+.menu {     /*the main navbar styling list start here*/
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+.menu ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu ul li {
+    list-style: none;
+    margin-left: 92px;
+    margin-top: 32px;
+    font-size: 14px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+.menu ul li a:hover {
+    color: yellowgreen;
+}
+
+.search {
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch {
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid yellowgreen;
+    margin-top: 20px;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    background: black;
+    border: 2px solid yellowgreen;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+button:hover {
+    color: yellowgreen;
+}
+
+button:focus {
+    outline: none;
+}
+
+
+.srch:focus {
+    outline: none;
+}
+
+.About-main {    /*the main about content styling start here*/
+    width: 800px;
+    height: 500px;
+    background-color: yellowgreen;
+    background: linear-gradient(rgba(0, 0, 0, 0.2)50%, rgba(0, 0, 0, 0.2)50%), url(../img/bg4.png);
+    border-radius: 10px;
+    margin: 2px;
+    padding: 9px;
+    margin-top: 40px;
+    margin-left: 270px;
+}
+
+.Aboutinfo h2 {
+    color: yellowgreen;
+    font-size: 30px;
+}
+
+
+.Aboutinfo {
+    color: white;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 9px;
+    font-size: 25px;
+    text-align: center;
+    font-size: 19px;
+}
+
+.par {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+* {     /*--the mian footer container styling starts here*/
+    box-sizing: border-box;
+}
+
+.footer {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6)50%, rgba(0, 0, 0, 0.6)50%), url(../img/footerimg.jpg);
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 165px;
+    padding: 5px;
+}
+
+.footer-main {
+    position: relative;
+}
+
+.row {     /*the sub container of the footer styling starts here*/
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 60px;
+}
+
+ul {
+    list-style: none;
+}
+
+
+.footer-col {
+    width: 20%;
+    padding: 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: yellowgreen;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    position: relative;
+    font-weight: 500;
+}
+
+.footer-col h3 {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.4s ease;
+}
+
+.footer-col h3:hover {
+    color: black;
+    padding-left: 10px;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    background-color: black;
+    height: 2px;
+    box-sizing: border-box;
+    width: 100px;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.4s ease;
+}
+
+.footer-col ul li a:hover {
+    color: black;
+    padding-left: 10px;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: black;
+    width: 40px;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+    color: yellowgreen;
+    background-color: white;
+}
